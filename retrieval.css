@@ -5,3 +5,15 @@
 /* Keep the result action separate from activity badges at every screen width. */
 .wheel-result .meta{margin-bottom:16px}
 .wheel-result .button{display:flex;width:100%;min-height:52px;line-height:1.4;text-align:center;padding:14px 20px;white-space:normal}
+
+/* Activity identities: one original pictogram per activity, shared across views. */
+.activity-icon{width:72px;height:72px;padding:7px;border-radius:15px;background:var(--paper);stroke-width:2.2;flex-shrink:0}
+.activity-icon .icon-accent{stroke:#a16c00}
+.activity-icon .icon-tint{fill:#ffe49a;stroke:var(--green)}
+.activity-icon .icon-paper{fill:#fff;stroke:var(--green)}
+.wheel-option .activity-icon{width:34px;height:34px;padding:0;border-radius:0;background:none}
+.wheel-key>span{display:flex;align-items:center;gap:7px;min-width:0;padding:3px 0}
+.wheel-key .activity-icon{width:27px;height:27px;padding:0;background:none;border-radius:0}
+.wheel-result-title{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.wheel-result-title .activity-icon{width:54px;height:54px;padding:3px}
+.wheel-result-title h2{margin:0}
