@@ -1085,9 +1085,9 @@ window.RETRIEVAL_ACTIVITIES = [
     "group": "Pairs / groups",
     "prep": "None",
     "format": "Write & recall",
-    "credit": "Pat Thomson — inkshedding explainer",
-    "source": "https://patthomson.net/2015/04/23/4154/",
-    "origin": "Inkshedding was developed by Russ Hunt and Jim Reither. Pat Thomson’s blog explains the approach, drawing on Miriam Horne’s account. This classroom adaptation uses previously taught content and requires recall before exchanging writing and checking accuracy.",
+    "credit": "Lindsey Albracht, Baruch College — teaching guide",
+    "source": "https://blogs.baruch.cuny.edu/activelearning/ink-shedding/",
+    "origin": "Inkshedding was developed by Russ Hunt and Jim Reither. Lindsey Albracht’s Baruch College guide explains a classroom version for reviewing earlier material through written dialogue. The linked guide describes a longer discussion activity; this short retrieval adaptation asks students to recall previously taught content without notes before exchanging writing, then check accuracy.",
     "materials": "Paper and a focused prompt about taught knowledge.",
     "steps": [
       {
