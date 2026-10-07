@@ -230,11 +230,11 @@ window.RETRIEVAL_ACTIVITIES = [
   {
     "id": "flashcard-sprint",
     "name": "Flashcard practice",
-    "summary": "Attempt an answer before turning over each card.",
+    "summary": "A short classroom round: recall from prepared cards, then check.",
     "minutes": 6,
     "group": "Individual",
     "prep": "Prepared",
-    "materials": "Your own checked flashcards",
+    "materials": "Teacher-prepared, checked prompt-and-answer cards for previously taught content.",
     "credit": "Pooja K. Agarwal — flashcard guidance",
     "source": "https://www.retrievalpractice.org/strategies/2019/11/18/flashcards",
     "origin": "Flashcards are a shared study method. Agarwal is credited for the linked retrieval guidance; the short classroom format is a TNT adaptation.",
@@ -255,15 +255,15 @@ window.RETRIEVAL_ACTIVITIES = [
         "icon": "check"
       },
       {
-        "title": "Return later",
-        "text": "Keep practising across sessions, including previously correct cards.",
-        "icon": "calendar"
+        "title": "Retry a missed card",
+        "text": "Set the answer aside and reattempt a missed prompt independently before ending the starter.",
+        "icon": "swap"
       }
     ],
     "check": "Recognising an answer after flipping is different from retrieving it. Avoid racing for the highest card count.",
-    "adapt": "Use paired checking, audio prompts or larger print.",
+    "adapt": "Use a small teacher-selected set; work seated in pairs or answer on paper.",
     "icon": "cards",
-    "format": "Space & review"
+    "format": "Quiz & check"
   },
   {
     "id": "whiteboard-recall",
@@ -529,7 +529,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "The clock is an organiser, not a race. Avoid twelve rushed sections that leave no time for correction.",
     "adapt": "Use fewer sections, larger paper or a simple rectangular grid.",
     "icon": "clock",
-    "format": "Space & review"
+    "format": "Write & recall"
   },
   {
     "id": "think-pair-share",
@@ -580,7 +580,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "format": "Connect & organise",
     "credit": "James M. Lang — Connection Notebooks; explained by Pooja K. Agarwal",
     "source": "https://www.retrievalpractice.org/strategies/2018/8/31/connection-notebooks",
-    "origin": "Agarwal attributes Connection Notebooks to James M. Lang. This guide adds an explicit accuracy check before students extend a connection.",
+    "origin": "Agarwal attributes Connection Notebooks to James M. Lang. This starter adaptation recalls earlier taught knowledge and checks accuracy before extending a connection.",
     "materials": "A notebook; one connection prompt about taught knowledge.",
     "steps": [
       {
@@ -608,45 +608,6 @@ window.RETRIEVAL_ACTIVITIES = [
     "adapt": "Provide two topic headings or let students record an explanation.",
     "icon": "link",
     "templateId": "concept-map"
-  },
-  {
-    "id": "retrieve-taking",
-    "name": "Retrieve-taking",
-    "summary": "Pause the source and build notes from memory.",
-    "minutes": 5,
-    "group": "Individual",
-    "prep": "None",
-    "format": "Write & recall",
-    "credit": "Pooja K. Agarwal — Retrieve-Taking",
-    "source": "https://www.retrievalpractice.org/strategies/2018/5/11/retrieve-taking",
-    "origin": "Agarwal’s named classroom strategy changes note taking into recall with the source closed. Use older material too, so the task goes beyond immediate recall.",
-    "materials": "A short taught text, explanation or video; paper.",
-    "steps": [
-      {
-        "title": "Study a short section",
-        "text": "Read or listen attentively; identify its main purpose.",
-        "icon": "book"
-      },
-      {
-        "title": "Hide the source",
-        "text": "Close the text or pause and hide the slide.",
-        "icon": "boards"
-      },
-      {
-        "title": "Reconstruct the meaning",
-        "text": "Write the main ideas and relationships in your own words.",
-        "icon": "write"
-      },
-      {
-        "title": "Check the gaps",
-        "text": "Reopen the source, correct your notes, and revisit later.",
-        "icon": "check"
-      }
-    ],
-    "check": "Compare meaning and important omissions, not exact wording.",
-    "adapt": "Use short sections, spoken notes or a labelled sketch.",
-    "icon": "write",
-    "templateId": "brain-dump"
   },
   {
     "id": "quick-quiz",
@@ -725,45 +686,6 @@ window.RETRIEVAL_ACTIVITIES = [
     "adapt": "Run it seated with a passed sheet; allow nonverbal contributions.",
     "icon": "swap",
     "templateId": "list-it"
-  },
-  {
-    "id": "leitner-boxes",
-    "name": "Leitner flashcard boxes",
-    "summary": "Review difficult cards more often and secure cards after a longer gap.",
-    "minutes": 8,
-    "group": "Individual",
-    "prep": "Prepared",
-    "format": "Space & review",
-    "credit": "Sebastian Leitner — spaced flashcard system",
-    "source": "https://leitnerbox.io/blog/sebastian-leitner/",
-    "origin": "The Leitner system is attributed to Sebastian Leitner. This guide simplifies it to three review piles; intervals are teacher choices, not a fixed universal schedule.",
-    "materials": "Checked question-and-answer cards; three labelled piles and review dates.",
-    "steps": [
-      {
-        "title": "Set a schedule",
-        "text": "Label piles frequent, next review, and later review; add dates.",
-        "icon": "calendar"
-      },
-      {
-        "title": "Retrieve before turning",
-        "text": "Answer each due card aloud or on paper before checking.",
-        "icon": "cards"
-      },
-      {
-        "title": "Sort by accuracy",
-        "text": "Move correct cards forward; return missed cards to frequent.",
-        "icon": "columns"
-      },
-      {
-        "title": "Return after a gap",
-        "text": "Review due piles on their dates, including previously secure cards.",
-        "icon": "calendar"
-      }
-    ],
-    "check": "Judge completeness against the checked answer, not a feeling of familiarity.",
-    "adapt": "Use accessible digital piles or larger cards; keep the set manageable.",
-    "icon": "cards",
-    "templateId": "flashcard-sprint"
   },
   {
     "id": "sticky-note-quiz",
@@ -1429,84 +1351,6 @@ window.RETRIEVAL_ACTIVITIES = [
     "templateId": "whiteboard-recall"
   },
   {
-    "id": "cornell-cue-recall",
-    "name": "Cornell cue recall",
-    "summary": "Cover the notes and use a cue column to retrieve their meaning.",
-    "minutes": 8,
-    "group": "Individual",
-    "prep": "Low",
-    "format": "Space & review",
-    "credit": "Walter Pauk — Cornell Note-taking System",
-    "source": "https://lsc.cornell.edu/notes.html",
-    "origin": "Cornell’s Learning Strategies Center credits Walter Pauk’s system. This activity focuses on its cover-and-recite review stage, rather than treating copying notes as retrieval.",
-    "materials": "Previously prepared notes with a separate cue/question column.",
-    "steps": [
-      {
-        "title": "Prepare the cues",
-        "text": "Add brief questions beside existing, checked notes.",
-        "icon": "columns"
-      },
-      {
-        "title": "Cover the notes",
-        "text": "Leave only the cue column visible.",
-        "icon": "book"
-      },
-      {
-        "title": "Recite the answers",
-        "text": "Explain each cue from memory, aloud or in writing.",
-        "icon": "write"
-      },
-      {
-        "title": "Check and schedule",
-        "text": "Uncover notes, correct gaps, and plan a later review.",
-        "icon": "calendar"
-      }
-    ],
-    "check": "Read the cue, not the answer; check explanations against notes.",
-    "adapt": "Provide teacher-written cues or use an audio response.",
-    "icon": "columns",
-    "templateId": null
-  },
-  {
-    "id": "boxing-technique",
-    "name": "Boxing Technique",
-    "summary": "Hide key slide content and track what you can actually recall.",
-    "minutes": 8,
-    "group": "Individual",
-    "prep": "Prepared",
-    "format": "Space & review",
-    "credit": "James Culhane and his students — Boxing Technique",
-    "source": "https://www.learningscientists.org/blog/2022/2/17-1",
-    "origin": "Culhane credits himself and his students with developing this technique in his guest blog. This classroom adaptation uses text labels alongside colour to track actual recall, rather than confidence alone.",
-    "materials": "A checked slide or document with opaque boxes over key information.",
-    "steps": [
-      {
-        "title": "Box important content",
-        "text": "Cover selected information and add a short recall cue.",
-        "icon": "boards"
-      },
-      {
-        "title": "Retrieve after a gap",
-        "text": "Return later and answer without moving the box.",
-        "icon": "write"
-      },
-      {
-        "title": "Reveal and evaluate",
-        "text": "Uncover and compare your response for accuracy and completeness.",
-        "icon": "check"
-      },
-      {
-        "title": "Label for next review",
-        "text": "Mark complete, partial or missed; revisit gaps after a delay.",
-        "icon": "calendar"
-      }
-    ],
-    "check": "Labels follow checked performance, not confidence; keep the original hidden content.",
-    "adapt": "Use paper covers; include text labels so colour is optional.",
-    "icon": "boards",
-    "templateId": null
-  },
-  {
     "id": "taboo-explanations",
     "name": "Taboo explanations",
     "summary": "Explain a taught term without using the term itself.",
@@ -1664,15 +1508,15 @@ window.RETRIEVAL_ACTIVITIES = [
   },
   {
     "id": "ten-minute-write",
-    "name": "Ten-minute recall write",
-    "summary": "Build an extended explanation using previously taught knowledge.",
-    "minutes": 15,
+    "name": "Short recall write",
+    "summary": "Use a few minutes of writing to explain previously taught knowledge.",
+    "minutes": 8,
     "group": "Individual",
     "prep": "Low",
     "format": "Write & recall",
     "credit": "Tom Needham — 10-minute writes classroom example",
     "source": "https://tomneedhamteach.wordpress.com/2023/02/03/explicit-instruction-stage-1-retrieval-practice-10-minute-writes/",
-    "origin": "Needham describes short recall-and-application writes. This version specifies a closed-note attempt and checked feedback; allow extra time beyond the ten-minute writing stage.",
+    "origin": "Needham describes ten-minute recall-and-application writes. This shorter starter adaptation uses a brief closed-note plan, four minutes of writing and checked feedback.",
     "materials": "A focused prompt, paper and a checked model or criteria.",
     "steps": [
       {
@@ -1686,8 +1530,8 @@ window.RETRIEVAL_ACTIVITIES = [
         "icon": "map"
       },
       {
-        "title": "Write for ten minutes",
-        "text": "Develop an explanation using that recalled knowledge.",
+        "title": "Write for four minutes",
+        "text": "Develop a short explanation using your recalled knowledge.",
         "icon": "write"
       },
       {
@@ -1696,8 +1540,8 @@ window.RETRIEVAL_ACTIVITIES = [
         "icon": "check"
       }
     ],
-    "check": "Allow checking time in addition to the ten-minute write.",
-    "adapt": "Shorten the writing stage or allow dictation while keeping independent recall.",
+    "check": "Focus feedback on accurate knowledge and one key explanation, rather than marking writing at length.",
+    "adapt": "Use bullets, dictation or a shorter writing stage while preserving independent recall.",
     "icon": "write",
     "templateId": "brain-dump"
   }

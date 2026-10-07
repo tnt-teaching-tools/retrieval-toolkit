@@ -7,7 +7,7 @@
 .wheel-result .button{display:flex;width:100%;min-height:52px;line-height:1.4;text-align:center;padding:14px 20px;white-space:normal}
 
 /* Activity identities: one original pictogram per activity, shared across views. */
-.activity-icon{width:72px;height:72px;padding:7px;border-radius:15px;background:var(--paper);stroke-width:2.2;flex-shrink:0}
+svg.activity-icon{width:72px;height:72px;padding:7px;border-radius:15px;background:var(--paper);stroke-width:2.2;flex-shrink:0}
 .activity-icon .icon-accent{stroke:#a16c00}
 .activity-icon .icon-tint{fill:#ffe49a;stroke:var(--green)}
 .activity-icon .icon-paper{fill:#fff;stroke:var(--green)}
