@@ -1085,9 +1085,9 @@ window.RETRIEVAL_ACTIVITIES = [
     "group": "Pairs / groups",
     "prep": "None",
     "format": "Write & recall",
-    "credit": "Aidan Severs — classroom guidance",
-    "source": "https://www.aidansevers.com/post/no-quiz-retrieval-practice-techniques",
-    "origin": "Severs discusses this shared classroom routine as a retrieval option. This adaptation requires recall before peers or visible answers provide support. The original creator is not verified.",
+    "credit": "Pat Thomson — inkshedding explainer",
+    "source": "https://patthomson.net/2015/04/23/4154/",
+    "origin": "Inkshedding was developed by Russ Hunt and Jim Reither. Pat Thomson’s blog explains the approach, drawing on Miriam Horne’s account. This classroom adaptation uses previously taught content and requires recall before exchanging writing and checking accuracy.",
     "materials": "Paper and a focused prompt about taught knowledge.",
     "steps": [
       {
