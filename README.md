@@ -1,6 +1,6 @@
 # TNT Retrieval Toolkit
 
-Subject-neutral retrieval activities, illustrated guides, research summaries and editable Word and PowerPoint templates.
+44 subject-neutral retrieval activities across seven formats, illustrated guides, research summaries and editable Word and PowerPoint templates.
 
 Part of TNT Teaching Tools.
 
@@ -11,3 +11,5 @@ Part of TNT Teaching Tools.
 This is a standalone static website. GitHub Pages serves the root of the main branch. No install or build is needed.
 
 Classroom resources are unbranded. Source acknowledgements remain on the website.
+
+Every activity has an individual guide and linked classroom source. Credits distinguish documented creators from published examples of shared routines. The template pack contains 14 PowerPoint layouts and 8 Word worksheets, with reusable starters labelled on relevant new guides.
