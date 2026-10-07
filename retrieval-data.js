@@ -256,7 +256,7 @@ window.RETRIEVAL_ACTIVITIES = [
       },
       {
         "title": "Retry a missed card",
-        "text": "Set the answer aside and reattempt a missed prompt independently before ending the starter.",
+        "text": "Set the answer aside and reattempt a missed prompt independently before ending the activity.",
         "icon": "swap"
       }
     ],
@@ -580,7 +580,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "format": "Connect & organise",
     "credit": "James M. Lang — Connection Notebooks; explained by Pooja K. Agarwal",
     "source": "https://www.retrievalpractice.org/strategies/2018/8/31/connection-notebooks",
-    "origin": "Agarwal attributes Connection Notebooks to James M. Lang. This starter adaptation recalls earlier taught knowledge and checks accuracy before extending a connection.",
+    "origin": "Agarwal attributes Connection Notebooks to James M. Lang. This classroom adaptation recalls earlier taught knowledge and checks accuracy before extending a connection.",
     "materials": "A notebook; one connection prompt about taught knowledge.",
     "steps": [
       {
@@ -1516,7 +1516,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "format": "Write & recall",
     "credit": "Tom Needham — 10-minute writes classroom example",
     "source": "https://tomneedhamteach.wordpress.com/2023/02/03/explicit-instruction-stage-1-retrieval-practice-10-minute-writes/",
-    "origin": "Needham describes ten-minute recall-and-application writes. This shorter starter adaptation uses a brief closed-note plan, four minutes of writing and checked feedback.",
+    "origin": "Needham describes ten-minute recall-and-application writes. This shorter classroom adaptation uses a brief closed-note plan, four minutes of writing and checked feedback.",
     "materials": "A focused prompt, paper and a checked model or criteria.",
     "steps": [
       {

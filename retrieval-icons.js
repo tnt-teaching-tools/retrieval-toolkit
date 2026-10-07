@@ -1,4 +1,4 @@
-/* Original pictograms: one distinct illustration per lesson-starter activity. */
+/* Original pictograms: one distinct illustration per retrieval activity. */
 window.RETRIEVAL_ICONS = {
   "brain-dump": "<path d=\"M22 37c-7-1-11-6-9-12-4-5-1-12 5-13 1-6 9-8 14-4 5-4 13-1 14 5 7 1 9 9 5 13 2 6-2 12-9 12 M32 9v25 M22 15c-4 1-5 5-3 8 M41 18c4 1 5 5 2 8 M23 27l5 3 M40 30l-5 3\"/><path class=\"icon-accent\" d=\"M32 39v12m-6-6 6 6 6-6\"/><path d=\"M17 54h30\"/>",
   "two-things": "<rect x=\"8\" y=\"13\" width=\"20\" height=\"38\" rx=\"5\"/><rect class=\"icon-tint\" x=\"36\" y=\"13\" width=\"20\" height=\"38\" rx=\"5\"/><path d=\"m15 27 4-3v17m-4 0h8 M42 29c0-7 10-7 10 0 0 4-10 7-10 12h10\"/>",
