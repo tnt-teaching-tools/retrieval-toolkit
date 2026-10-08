@@ -157,42 +157,21 @@ window.RETRIEVAL_ACTIVITIES = [
   },
   {
     "id": "quiz-quiz-trade",
-    "name": "Quiz–Quiz–Trade",
-    "summary": "Partners retrieve, check, swap cards and repeat.",
-    "minutes": 10,
+    "name": "Quiz-Quiz-Trade (Kagan)",
+    "summary": "Explore Kagan’s own published guidance for this cooperative learning structure.",
+    "minutes": 0,
     "group": "Pairs / groups",
-    "prep": "Prepared",
-    "materials": "Teacher-checked prompt cards with answers on the back",
+    "prep": "None",
+    "materials": "",
     "credit": "Kagan — cooperative learning structure",
     "source": "https://www.kaganonline.com/catalog/look_whats_inside/BQQV_inside.php",
-    "origin": "Quiz–Quiz–Trade is a Kagan structure. This is an independently written retrieval guide; no Kagan card sets or artwork are reproduced.",
-    "steps": [
-      {
-        "title": "Pair up",
-        "text": "Give each learner a checked card; pair students safely.",
-        "icon": "pair"
-      },
-      {
-        "title": "Quiz both ways",
-        "text": "One partner asks; the other answers from memory. Then reverse roles.",
-        "icon": "cards"
-      },
-      {
-        "title": "Check together",
-        "text": "Use the card answer to correct or extend each response.",
-        "icon": "check"
-      },
-      {
-        "title": "Trade and repeat",
-        "text": "Exchange cards and work with a new partner, or rotate seated partners.",
-        "icon": "swap"
-      }
-    ],
-    "check": "Keep the answer hidden until an attempt. Sample explanations to catch inaccurate peer coaching.",
-    "adapt": "Offer a seated rotation and read prompts aloud where helpful.",
+    "origin": "This entry links directly to Kagan’s published resource. The toolkit does not reproduce the structure’s instructions or provide an adapted template.",
+    "steps": [],
+    "check": "",
+    "adapt": "",
     "icon": "cards",
-    "format": "Games & movement",
-    "templateId": "quiz-quiz-trade"
+    "format": "Source resource",
+    "externalOnly": true
   },
   {
     "id": "retrieval-roulette",
@@ -319,9 +298,9 @@ window.RETRIEVAL_ACTIVITIES = [
     "group": "Individual",
     "prep": "None",
     "materials": "Blank paper",
-    "credit": "Shared concept-mapping method; TNT retrieval adaptation",
-    "source": "https://doi.org/10.1126/science.1199327",
-    "origin": "No sole creator is claimed for this memory-first classroom variant. Karpicke and Blunt (2011) provide related research on retrieval and concept mapping, not proof that every map format is superior.",
+    "credit": "Shared concept-mapping method; public explanation by The Learning Scientists",
+    "source": "https://www.learningscientists.org/blog/2016/2/29-1",
+    "origin": "No sole creator is claimed for this memory-first classroom variant. The Learning Scientists explain retrieval-based concept mapping and link to research by Karpicke and Blunt (2011), and Blunt and Karpicke (2014). The organiser here is an independent classroom adaptation.",
     "steps": [
       {
         "title": "Start centrally",
@@ -397,9 +376,9 @@ window.RETRIEVAL_ACTIVITIES = [
     "group": "Individual",
     "prep": "None",
     "materials": "Paper or mini whiteboards",
-    "credit": "Shared focused-recall routine; TNT classroom adaptation",
-    "source": "https://pdf.retrievalpractice.org/RetrievalPracticeGuide.pdf",
-    "origin": "No sole inventor is verified for this generic format. Its design follows cued-recall principles; it is not presented as a named researcher’s invention.",
+    "credit": "Kate Jones — published List It! classroom strategy",
+    "source": "https://www.tesol.org/blog/posts/9-ways-to-do-retrieval-practice-in-the-classroom/",
+    "origin": "Hall Houston describes List It! in his TESOL article and attributes the published classroom example to Kate Jones’s Retrieval Practice (2019). Listing from memory is a wider shared routine. This independently written adaptation adds a bounded category, an explanation and teacher checking.",
     "steps": [
       {
         "title": "Name a category",
@@ -430,7 +409,7 @@ window.RETRIEVAL_ACTIVITIES = [
   },
   {
     "id": "retrieval-placemat",
-    "name": "Retrieval placemat",
+    "name": "Group recall placemat",
     "summary": "Recall individually before building a shared response.",
     "minutes": 10,
     "group": "Pairs / groups",
@@ -438,7 +417,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "materials": "Paper divided into individual spaces and a centre",
     "credit": "Shared placemat structure; TNT retrieval adaptation",
     "source": "https://pdf.retrievalpractice.org/RetrievalPracticeGuide.pdf",
-    "origin": "Placemat is a widely used cooperative structure. No sole originator is verified here; this guide adds an individual memory-first stage.",
+    "origin": "This uses a shared cooperative placemat layout: separate spaces for individual writing and a centre for agreed ideas. It differs from Kate Jones’s prompt-based Retrieval Practice Placemat, which she describes in her TILE article. No sole originator is verified for the cooperative layout. This guide adds independent recall and an individual retry.",
     "steps": [
       {
         "title": "Divide the page",
@@ -465,7 +444,9 @@ window.RETRIEVAL_ACTIVITIES = [
     "adapt": "Use pairs or separate sheets if shared paper is awkward; assign speaking turns.",
     "icon": "placemat",
     "format": "Connect & organise",
-    "templateId": "retrieval-placemat"
+    "templateId": "retrieval-placemat",
+    "relatedSource": "https://tile.psy.gla.ac.uk/2019/12/03/tile-share-best-practice-retrieval-practice-research-and-resources-for-every-classroom-by-kate-jones/",
+    "relatedCredit": "Kate Jones — prompt-based Retrieval Practice Placemat"
   },
   {
     "id": "roll-and-retrieve",
@@ -514,9 +495,9 @@ window.RETRIEVAL_ACTIVITIES = [
     "group": "Individual",
     "prep": "Low",
     "materials": "Paper with a clock divided into labelled topic sections",
-    "credit": "Shared clock organiser; TNT retrieval adaptation",
-    "source": "https://pdf.retrievalpractice.org/RetrievalPracticeGuide.pdf",
-    "origin": "No verified sole originator is claimed for this visual organiser. The labels and timings here are TNT guidance, not a research-tested clock protocol.",
+    "credit": "Becky Russell — revision clock; acknowledged by Kate Jones",
+    "source": "https://tile.psy.gla.ac.uk/2019/12/03/tile-share-best-practice-retrieval-practice-research-and-resources-for-every-classroom-by-kate-jones/",
+    "origin": "In her TILE article, Kate Jones credits Becky Russell (@Geogblog) with creating and sharing the revision clock. This independently written adaptation uses fewer sections, flexible timings and checked feedback.",
     "steps": [
       {
         "title": "Label the sections",
@@ -671,8 +652,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "prep": "Low",
     "format": "Games & movement",
     "credit": "Kate Jones — Retrieval Relay, Seneca CPD",
-    "source": "https://senecalearning.com/en-GB/revision-notes/teacher-cpd/cpd-retrieval-practice-seneca-certified/3-1-3-retrieval-relay-race",
-    "origin": "Jones includes Retrieval Relay in her Seneca CPD. This seated adaptation adds an individual response before each team turn and prioritises accuracy over speed.",
+    "source": "https://tile.psy.gla.ac.uk/2019/12/03/tile-share-best-practice-retrieval-practice-research-and-resources-for-every-classroom-by-kate-jones/",
+    "origin": "Kate Jones describes Retrieval Relay Race in her public TILE article and her Seneca CPD. This independently written seated adaptation adds an individual response before each team turn and prioritises accuracy over speed.",
     "materials": "A small prompt set, team answer sheet and checked answers.",
     "steps": [
       {
@@ -1288,42 +1269,21 @@ window.RETRIEVAL_ACTIVITIES = [
   },
   {
     "id": "numbered-heads",
-    "name": "Numbered Heads Together",
-    "summary": "Everyone prepares an answer before a team member responds.",
-    "minutes": 8,
+    "name": "Numbered Heads Together™ (Kagan)",
+    "summary": "Explore Kagan’s own published guidance for this cooperative learning structure.",
+    "minutes": 0,
     "group": "Pairs / groups",
     "prep": "None",
-    "format": "Talk & explain",
+    "format": "Source resource",
     "credit": "Spencer Kagan — Numbered Heads Together™; building on Russ Frank",
     "source": "https://www.kaganonline.com/free_articles/dr_spencer_kagan/256/A-Brief-History-of-Kagan-Structures",
-    "origin": "Kagan describes formalising and naming the structure from Russ Frank’s classroom practice, then adding an individual written response. This retrieval adaptation uses that individual-first sequence.",
-    "materials": "Teams of three or four; a taught-content prompt; paper.",
-    "steps": [
-      {
-        "title": "Number the team",
-        "text": "Assign numbers and pose a recall-and-explain prompt.",
-        "icon": "pair"
-      },
-      {
-        "title": "Write alone",
-        "text": "Every student attempts an answer before discussion.",
-        "icon": "write"
-      },
-      {
-        "title": "Put heads together",
-        "text": "Compare reasoning so each member can explain the answer.",
-        "icon": "pair"
-      },
-      {
-        "title": "Respond and check",
-        "text": "Call a number; that member answers, then all correct privately.",
-        "icon": "check"
-      }
-    ],
-    "check": "Sample more than one team; revisit a corrected point independently.",
-    "adapt": "Use response boards or written answers instead of standing.",
+    "origin": "This entry links directly to Kagan’s published resource. The toolkit does not reproduce the structure’s instructions or provide an adapted template.",
+    "materials": "",
+    "steps": [],
+    "check": "",
+    "adapt": "",
     "icon": "pair",
-    "templateId": "numbered-heads"
+    "externalOnly": true
   },
   {
     "id": "peer-instruction",
