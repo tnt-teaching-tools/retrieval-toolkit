@@ -35,7 +35,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Sample explanations as well as keywords. Ask students to retrieve a corrected idea again later.",
     "adapt": "Use broad headings if a blank page feels overwhelming; allow spoken recording or labelled sketches.",
     "icon": "write",
-    "format": "Write & recall"
+    "format": "Write & recall",
+    "templateId": "brain-dump"
   },
   {
     "id": "two-things",
@@ -73,7 +74,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "A question about what students want to learn is reflection, not retrieval. Ask for knowledge they have already encountered.",
     "adapt": "Ask for two steps, two examples or two connections; give additional thinking time where needed.",
     "icon": "two",
-    "format": "Write & recall"
+    "format": "Write & recall",
+    "templateId": "two-things"
   },
   {
     "id": "cops-and-robbers",
@@ -111,7 +113,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Peer additions are feedback, not independent retrieval. Verify them before the final recall.",
     "adapt": "Use fixed pairs instead of movement, and headings to support a narrower focus.",
     "icon": "columns",
-    "format": "Games & movement"
+    "format": "Games & movement",
+    "templateId": "cops-and-robbers"
   },
   {
     "id": "challenge-grid",
@@ -149,7 +152,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Age of content is not a reliable measure of difficulty. Points should never replace checking understanding.",
     "adapt": "Use fewer cells or oral responses; label categories so colour is never the only cue.",
     "icon": "grid",
-    "format": "Quiz & check"
+    "format": "Quiz & check",
+    "templateId": "challenge-grid"
   },
   {
     "id": "quiz-quiz-trade",
@@ -187,7 +191,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Keep the answer hidden until an attempt. Sample explanations to catch inaccurate peer coaching.",
     "adapt": "Offer a seated rotation and read prompts aloud where helpful.",
     "icon": "cards",
-    "format": "Games & movement"
+    "format": "Games & movement",
+    "templateId": "quiz-quiz-trade"
   },
   {
     "id": "retrieval-roulette",
@@ -225,7 +230,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Inspect the selected prompts before using them. This page explains the approach; it does not generate questions.",
     "adapt": "Start with a small bank you can maintain; select a manageable number of prompts.",
     "icon": "cards",
-    "format": "Quiz & check"
+    "format": "Quiz & check",
+    "templateId": "retrieval-roulette"
   },
   {
     "id": "flashcard-sprint",
@@ -263,7 +269,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Recognising an answer after flipping is different from retrieving it. Avoid racing for the highest card count.",
     "adapt": "Use a small teacher-selected set; work seated in pairs or answer on paper.",
     "icon": "cards",
-    "format": "Quiz & check"
+    "format": "Quiz & check",
+    "templateId": "flashcard-sprint"
   },
   {
     "id": "whiteboard-recall",
@@ -301,7 +308,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Sample across the room, not only the quickest responders. Avoid revealing another student’s board before everyone attempts.",
     "adapt": "Accept diagrams or short phrases and adjust thinking time.",
     "icon": "boards",
-    "format": "Quiz & check"
+    "format": "Quiz & check",
+    "templateId": "whiteboard-recall"
   },
   {
     "id": "concept-map",
@@ -339,7 +347,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "A map copied from notes is a different task. Check the linking phrases, not artistic presentation.",
     "adapt": "Provide a few category headings without supplying all the facts.",
     "icon": "map",
-    "format": "Connect & organise"
+    "format": "Connect & organise",
+    "templateId": "concept-map"
   },
   {
     "id": "picture-prompts",
@@ -377,7 +386,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "An image containing all the answers can turn the task into copying. Keep the initial cue useful without revealing the target knowledge.",
     "adapt": "Provide a verbal description or accessible alternative to the image.",
     "icon": "picture",
-    "format": "Draw & reconstruct"
+    "format": "Draw & reconstruct",
+    "templateId": "picture-prompts"
   },
   {
     "id": "list-it",
@@ -415,7 +425,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "A longer list is not necessarily better understanding. Check accuracy and explanations.",
     "adapt": "Set an achievable list length and offer narrower category cues.",
     "icon": "write",
-    "format": "Write & recall"
+    "format": "Write & recall",
+    "templateId": "list-it"
   },
   {
     "id": "retrieval-placemat",
@@ -453,7 +464,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "A group answer can hide individual gaps. Keep each learner’s initial response visible.",
     "adapt": "Use pairs or separate sheets if shared paper is awkward; assign speaking turns.",
     "icon": "placemat",
-    "format": "Connect & organise"
+    "format": "Connect & organise",
+    "templateId": "retrieval-placemat"
   },
   {
     "id": "roll-and-retrieve",
@@ -491,7 +503,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Chance does not guarantee coverage. Do not let one confident student answer for everyone.",
     "adapt": "Use a fixed sequence when randomness leaves gaps, and avoid rewarding speed.",
     "icon": "dice",
-    "format": "Games & movement"
+    "format": "Games & movement",
+    "templateId": "roll-and-retrieve"
   },
   {
     "id": "retrieval-clock",
@@ -529,7 +542,8 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "The clock is an organiser, not a race. Avoid twelve rushed sections that leave no time for correction.",
     "adapt": "Use fewer sections, larger paper or a simple rectangular grid.",
     "icon": "clock",
-    "format": "Write & recall"
+    "format": "Write & recall",
+    "templateId": "retrieval-clock"
   },
   {
     "id": "think-pair-share",
@@ -568,7 +582,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Listen for reasoning, not simply agreement between partners.",
     "adapt": "Allow a written or recorded exchange in place of public speaking.",
     "icon": "pair",
-    "templateId": "two-things"
+    "templateId": "think-pair-share"
   },
   {
     "id": "connection-notebook",
@@ -607,7 +621,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "A shared word is not enough: ask what the relationship explains.",
     "adapt": "Provide two topic headings or let students record an explanation.",
     "icon": "link",
-    "templateId": "concept-map"
+    "templateId": "connection-notebook"
   },
   {
     "id": "quick-quiz",
@@ -646,7 +660,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Use errors to decide what needs another retrieval opportunity.",
     "adapt": "Read prompts aloud or reduce the number without removing thinking time.",
     "icon": "check",
-    "templateId": "whiteboard-recall"
+    "templateId": "quick-quiz"
   },
   {
     "id": "retrieval-relay",
@@ -685,7 +699,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Keep all students thinking between turns; do not reward speed alone.",
     "adapt": "Run it seated with a passed sheet; allow nonverbal contributions.",
     "icon": "swap",
-    "templateId": "list-it"
+    "templateId": "retrieval-relay"
   },
   {
     "id": "sticky-note-quiz",
@@ -724,7 +738,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "A question writer’s memory is not automatically an answer key.",
     "adapt": "Supply a question stem or use a shared digital board.",
     "icon": "write",
-    "templateId": "quiz-quiz-trade"
+    "templateId": "sticky-note-quiz"
   },
   {
     "id": "retrieval-role-play",
@@ -763,7 +777,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Evaluate accurate use of knowledge, not acting skill.",
     "adapt": "Keep roles seated; offer a written dialogue or audio response.",
     "icon": "pair",
-    "templateId": null
+    "templateId": "retrieval-role-play"
   },
   {
     "id": "walkabout-bingo",
@@ -802,7 +816,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Everyone needs a recall attempt; copying a partner’s answer is feedback.",
     "adapt": "Use seated partner rotations and a smaller grid.",
     "icon": "grid",
-    "templateId": "challenge-grid"
+    "templateId": "walkabout-bingo"
   },
   {
     "id": "recall-bingo",
@@ -841,7 +855,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Require an explanation for uncertain matches; points are optional.",
     "adapt": "Allow a smaller grid and avoid a fastest-winner requirement.",
     "icon": "grid",
-    "templateId": "challenge-grid"
+    "templateId": "recall-bingo"
   },
   {
     "id": "fading-cloze",
@@ -880,7 +894,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Accept equivalent wording when it preserves the taught meaning.",
     "adapt": "Begin with sentence stems; record where extra cues were needed.",
     "icon": "write",
-    "templateId": null
+    "templateId": "fading-cloze"
   },
   {
     "id": "multiple-choice-reasons",
@@ -919,7 +933,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Guessing a letter is not enough evidence of understanding.",
     "adapt": "Read choices aloud; use fewer well-designed alternatives.",
     "icon": "check",
-    "templateId": "whiteboard-recall"
+    "templateId": "multiple-choice-reasons"
   },
   {
     "id": "odd-one-out",
@@ -958,7 +972,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Accept another choice when its recalled evidence and rule are accurate.",
     "adapt": "Use pictures or two contrasting items before a larger set.",
     "icon": "columns",
-    "templateId": "concept-map"
+    "templateId": "odd-one-out"
   },
   {
     "id": "retrieval-quilt",
@@ -997,7 +1011,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Require a meaningful relationship rather than two copied definitions.",
     "adapt": "Start with four terms; offer connector stems.",
     "icon": "grid",
-    "templateId": "concept-map"
+    "templateId": "retrieval-quilt"
   },
   {
     "id": "recall-sort",
@@ -1036,7 +1050,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Sorting visible answers alone is recognition; preserve the first recall stage.",
     "adapt": "Provide category headings or let students sort sketches.",
     "icon": "columns",
-    "templateId": "cops-and-robbers"
+    "templateId": "recall-sort"
   },
   {
     "id": "loop-card-retrieval",
@@ -1075,7 +1089,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Finding a printed match is the checking stage, not the recall attempt.",
     "adapt": "Use a short seated chain; larger text or digital cards.",
     "icon": "cards",
-    "templateId": null
+    "templateId": "loop-card-retrieval"
   },
   {
     "id": "inkshedding",
@@ -1114,7 +1128,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Separate first recall from additions learned through the exchange.",
     "adapt": "Use brief bullet points or an accessible shared document.",
     "icon": "write",
-    "templateId": "brain-dump"
+    "templateId": "inkshedding"
   },
   {
     "id": "memory-storyboard",
@@ -1153,7 +1167,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Check order and causal links, not artistic quality.",
     "adapt": "Offer fewer frames or spoken captions.",
     "icon": "picture",
-    "templateId": null
+    "templateId": "memory-storyboard"
   },
   {
     "id": "blank-diagram",
@@ -1192,7 +1206,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Correct placement and an explanation matter more than a list of names.",
     "adapt": "Enlarge the diagram; add limited cues when needed, then fade them later.",
     "icon": "picture",
-    "templateId": null
+    "templateId": "blank-diagram"
   },
   {
     "id": "draw-from-memory",
@@ -1231,7 +1245,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Assess accurate meaning, not drawing skill.",
     "adapt": "Use shapes, arrows, tactile models or a spoken description.",
     "icon": "picture",
-    "templateId": "concept-map"
+    "templateId": "draw-from-memory"
   },
   {
     "id": "because-but-so",
@@ -1270,7 +1284,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Do not reward polished sentences that contain inaccurate knowledge.",
     "adapt": "Rehearse orally or start with one conjunction.",
     "icon": "link",
-    "templateId": null
+    "templateId": "because-but-so"
   },
   {
     "id": "numbered-heads",
@@ -1309,7 +1323,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Sample more than one team; revisit a corrected point independently.",
     "adapt": "Use response boards or written answers instead of standing.",
     "icon": "pair",
-    "templateId": "retrieval-placemat"
+    "templateId": "numbered-heads"
   },
   {
     "id": "peer-instruction",
@@ -1348,7 +1362,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "An improved vote can reflect persuasion; check a fresh individual explanation.",
     "adapt": "Use paper choices or boards; technology is optional.",
     "icon": "pair",
-    "templateId": "whiteboard-recall"
+    "templateId": "peer-instruction"
   },
   {
     "id": "taboo-explanations",
@@ -1387,7 +1401,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Make accuracy the goal; avoid obscure banned-word rules that block explanation.",
     "adapt": "Allow a written clue or extra thinking time.",
     "icon": "pair",
-    "templateId": null
+    "templateId": "taboo-explanations"
   },
   {
     "id": "elevator-explanation",
@@ -1426,7 +1440,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Do not let the time limit remove essential qualifications.",
     "adapt": "Offer a written version or more than thirty seconds.",
     "icon": "pair",
-    "templateId": null
+    "templateId": "elevator-explanation"
   },
   {
     "id": "frayer-recall",
@@ -1465,7 +1479,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "A non-example should help explain a boundary, not be an unrelated item.",
     "adapt": "Use sketches or one example in each box before adding more.",
     "icon": "grid",
-    "templateId": null
+    "templateId": "frayer-recall"
   },
   {
     "id": "how-and-why",
@@ -1504,7 +1518,7 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "If prior knowledge is too thin, reteach instead of inviting unsupported guesses.",
     "adapt": "Use sentence stems or a simple sequence outline.",
     "icon": "link",
-    "templateId": "two-things"
+    "templateId": "how-and-why"
   },
   {
     "id": "ten-minute-write",
@@ -1543,6 +1557,6 @@ window.RETRIEVAL_ACTIVITIES = [
     "check": "Focus feedback on accurate knowledge and one key explanation, rather than marking writing at length.",
     "adapt": "Use bullets, dictation or a shorter writing stage while preserving independent recall.",
     "icon": "write",
-    "templateId": "brain-dump"
+    "templateId": "ten-minute-write"
   }
 ];
